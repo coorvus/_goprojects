@@ -1,0 +1,45 @@
+# Binaires compilés
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Binaires de test (go test -c)
+*.test
+
+# Profils de couverture et artefacts de test
+*.out
+coverage.*
+*.coverprofile
+profile.cov
+
+# Fichiers de workspace Go (Go 1.18+)
+go.work
+go.work.sum
+
+# Fichier d'environnement
+.env
+
+# Dossier vendor (décommenter si tu ne veux pas le versionner)
+# vendor/
+
+# Répertoires de build / sortie
+/bin/
+/dist/
+build/
+
+# Logs et temporaires
+*.log
+*.tmp
+
+# Éditeurs / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS spécifiques
+.DS_Store
+Thumbs.db
